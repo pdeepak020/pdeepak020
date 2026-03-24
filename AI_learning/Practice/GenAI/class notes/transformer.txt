@@ -1,0 +1,23 @@
+# attention machanism and transformer (LLM base model)
+
+#refer https://jalammar.github.io/illustrated-transformer/ site for beter understanding
+
+Query (Q): The current word's "question" or what it's looking for in other words (e.g., "What's the subject here?").
+Key (K): A "label" or "index" of other words, representing what information they offer (e.g., "I'm a noun/location").
+Value (V): The actual content or meaning of each word, which gets passed forward. 
+
+temperature (model parameter)- it lies between 0 to 1, if near zero then less randomness, we can go for company specific data or any other specific data, 
+if it is near to 1 then more randomness, like need to write a poem with random words
+
+langchain for coding , langsmith - for debugging, monitoring etc, langgraph  - for agentic ai related work
+langServe - for deploying and rest API
+
+types of prompting - 
+zero short - simple ask no examples
+few short - give some details with expample, model learns from examples
+chain of thought - give the detailed explaination and exapmles with some more details
+self consistency prompt - it will generate different results and provide the best results
+tree of thoughts - not like chain of thought (sequencial process), it is parallel process 
+
+
+

@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Complete project",
+        "description": "Finish the task manager project",
+        "due_date": "2024-04-10",
+        "created_at": "2025-04-06T10:24:57.884160",
+        "completed": false
+    },
+    {
+        "title": "Buy groceries",
+        "description": "Get milk and bread",
+        "due_date": "2024-04-07",
+        "created_at": "2025-04-06T10:24:57.885090",
+        "completed": false
+    },
+    {
+        "title": "Complete project",
+        "description": "Finish the task manager project",
+        "due_date": "2024-04-10",
+        "created_at": "2025-04-06T10:25:29.379023",
+        "completed": false
+    },
+    {
+        "title": "Buy groceries",
+        "description": "Get milk and bread",
+        "due_date": "2024-04-07",
+        "created_at": "2025-04-06T10:25:29.379406",
+        "completed": false
+    }
+]

@@ -1,0 +1,6 @@
+docker build -t appnew .
+docker run -d -p 8000:8000 appnew
+
+docker save -o appnew.tar appnew
+docker load -i appnew.tar
+docker images
